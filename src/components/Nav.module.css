@@ -1,0 +1,55 @@
+.navCont {
+  padding: 15px;
+  width: 225px;
+  background: #1e2640;
+  position: relative;
+}
+
+.logoCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logoDesc {
+  margin-left: 10px;
+}
+
+.logoDesc p:first-child {
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 12px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+ul li:hover,
+ul li.active {
+  background: #353c53;
+}
+
+ul li img {
+  margin-right: 10px;
+}
+
+.creditDiv {
+  padding: 10px 15px;
+  background: #353c53;
+  border-radius: 5px;
+  margin-top: auto;
+  position: absolute;
+  bottom: 15px;
+  width: 192px;
+}

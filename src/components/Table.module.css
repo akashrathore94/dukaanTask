@@ -1,0 +1,49 @@
+.table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px 20px;
+  color: #1a181e;
+  font-size: 14px;
+}
+
+.table th {
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+tr {
+  border-bottom: 1px solid rgba(242, 242, 242, 1);
+}
+
+thead {
+  background: rgba(242, 242, 242, 1);
+  border-radius: 4px;
+}
+
+thead tr {
+  border: none;
+}
+
+.grayDot,
+.greenDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background: rgba(153, 153, 153, 1);
+}
+
+.greenDot {
+  background: #17b31b;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}

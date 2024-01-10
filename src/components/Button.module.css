@@ -1,0 +1,20 @@
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  background: lime;
+  cursor: pointer;
+}
+
+.primary {
+  background: rgba(20, 110, 180, 1);
+  color: #fff;
+}
+
+.disable {
+  background: rgba(230, 230, 230, 1);
+  color: rgba(128, 128, 128, 1);
+}

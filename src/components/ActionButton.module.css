@@ -1,0 +1,20 @@
+.actionBtn {
+  border: 1px solid rgba(217, 217, 217, 1);
+  font-size: 16px;
+  padding: 6px 12px;
+  background: #fff;
+  border-radius: 4px;
+  color: rgba(77, 77, 77, 1);
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.actionBtn img {
+  margin-left: 5px;
+  height: 17px;
+}
+
+.justImg img {
+  margin-left: 0;
+}
