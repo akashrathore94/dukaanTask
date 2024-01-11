@@ -8,14 +8,14 @@ function Table() {
     <table className={styles.table}>
       <thead>
         <tr>
-          <th>
+          <th className={styles.roundL}>
             <img src={triangleIcon} alt="triangleIcon" />
           </th>
           <th></th>
           <th>Transaction ID</th>
           <th>Order amount</th>
           <th>Transaction fees</th>
-          <th>Total</th>
+          <th className={styles.roundR}>Total</th>
         </tr>
       </thead>
 

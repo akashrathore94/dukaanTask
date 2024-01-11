@@ -47,3 +47,16 @@ thead tr {
   display: flex;
   align-items: center;
 }
+.table tbody td {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
+.roundL {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.roundR {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
