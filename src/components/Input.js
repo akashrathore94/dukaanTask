@@ -11,7 +11,11 @@ function Input({ type }) {
       <input
         value={searchInp}
         onChange={(e) => setSearchInp(e.target.value)}
-        placeholder={type === "sec" ? "" : "Search features, tutorials, etc."}
+        placeholder={
+          type === "sec"
+            ? "Search transaction ID"
+            : "Search features, tutorials, etc."
+        }
         className={`${styles[type]}`}
       />
     </div>
